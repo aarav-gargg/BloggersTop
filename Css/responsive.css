@@ -1,0 +1,83 @@
+@media (max-width: 1400px){
+    .navigation{
+      flex-direction: column;
+      margin: 20px;
+      justify-content: center;
+      align-items: center;
+      margin-left:5vw;
+    }
+    .left{
+        margin-left:10vw;
+        text-align: center;
+    }
+    .right{
+        margin:2vh 10vw;
+        text-align: center;
+    }
+    .contentTop {
+        width: 80vw;
+        margin-left: 109px;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-height: 22vh;
+    }
+    .line{
+        border: 1px solid rgb(116, 107, 107);
+        height: 0vh;
+        width: 70vw;
+        margin-left: 12vw;
+    }
+    .content {
+        justify-content: flex-start;
+        flex-direction: column;
+        justify-items: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .homeArticle{
+        max-height: 10vh;
+        padding:0.5vh;
+    }
+    .homeArticles{
+        margin-left: 1vw;
+    }
+    .footer{
+        max-height: 10vh;
+    }
+    .formBox textarea {
+        height: 10vh;
+        WIDTH: 34vw;
+        padding: 10px;
+        font-size: large;
+        border: 3px solid black;
+        border-radius: 22px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .formBox input {
+        width: 34vw;
+        margin: 7px 0px;
+        height: 1vh;
+        padding: 5px;
+        font-size: medium;
+        border: 3px solid black;
+        border-radius: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .contentSearch{
+        min-height: 85vh;
+    }
+    .contentSearch div{
+        margin: 1.5vh;
+    }
+    .contentTrending{
+        min-height: 80vh;
+    }
+    .homeArticleBlog{
+        margin-left: 1.5vw;
+    }
+  }
